@@ -6,11 +6,16 @@ import { AppComponent } from './app.component';
 import { ObservableComponent } from './observable/observable.component';
 import { HomeComponent } from './home/home.component';
 
+import { FromEventComponent } from './observable/from-event/from-event.component';
+import { ListComponent } from './observable/list/list.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     ObservableComponent,
-    HomeComponent
+    HomeComponent,
+    FromEventComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
